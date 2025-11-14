@@ -48,7 +48,7 @@ st.markdown("""
 <style>
 /* Background Image */
 .stApp {
-    background-image: url("https://t3.ftcdn.net/jpg/02/41/43/18/360_F_241431868_8DFQpCcmpEPVG0UvopdztOAd4a6Rqsoo.jpg");
+    background-image: url("https://t3.ftcdn.net/jpg/11/63/81/50/240_F_1163815000_wdShizV4YQP3Mf9HlCKKhMrfJYRyj41M.jpg");
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -163,6 +163,7 @@ if st.session_state.current_customer:
         st.subheader("🧾 Receipt")
         st.text(st.session_state.order_receipt)
         st.download_button("Download Receipt", st.session_state.order_receipt, file_name="receipt.txt")
+
 
 
 
